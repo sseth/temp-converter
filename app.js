@@ -1,7 +1,7 @@
 
-const tempF = document.querySelector('#fahrenheit > input');
-const tempC = document.querySelector('#celsius > input');
-const tempK = document.querySelector('#kelvin > input');
+const tempF = document.getElementById('fahrenheit');
+const tempC = document.getElementById('celsius');
+const tempK = document.getElementById('kelvin');
 
 
 function round(n) {
